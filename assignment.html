@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Ghost </title>
+		<link rel="Stylesheet" href="style.css">
+		<!--<meta name="viewport" content="width=device-width , initial-scale=1">-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+  
+	<body>
+    
+		<div class="sidebar">
+			<div class="icon-bar">
+				<a hreaf="#" > <i class="fa fa-home"></i></a>
+				<a hreaf="#" > <i class="fa fa-user"><div class="name" data-text="Stud">Student</div></i></a>
+				<a hreaf="#"  class="active"> <i class="fa fa-book"><div class="name" data-text="lesson">Lesson Plan</div></i></a>
+					<a hreaf="#"> <i class="fa fa-cog"><div class="name" data-text="setting">Setting</div></i></a>
+			</div>
+		</div>
+		<div id="rightSideWrapper">
+			<header> 
+			
+			</header>
+			
+			<div class="main">
+			<div class="url-name">
+<input type="url"  name="url" size="80" placeholder="Insert URL here">
+</div>
+<div class="label1">
+<label for="html">OR</label><br>
+</div>
+<div class="file-upload">
+<input class= "file-upload__input" type="file" name="myFile[]" id="myFile" hidden="hidden" multiple>
+<button class="file-upload__button" type="button" id="custom-button"> + Upload File</button>
+			</div>
+			
+			
+		</div>
+<script type="text/javascript">
+const realFileBtn = document.getElementById("myFile");
+const customBtn = document.getElementById("custom-button");
+custom-button.addEventListener("click",function(){
+myFile.click();
+});
+
+</script>
+	</body>
+	
+
+	
+
+</html>

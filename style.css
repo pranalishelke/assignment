@@ -1,0 +1,103 @@
+*{ 
+    margin: 0px;
+}
+
+.sidebar {
+	/*Strictly Necessary */
+	position:fixed; 
+	height: 100%;
+	width:10%;
+	margin: 5px;  
+
+  /*Aesthetics*/
+  background: #F5F5F5; 
+  border-radius: 7px;  
+}
+.icon-bar{
+width : 100px;
+Background color:#F5F5F5; 
+}
+.icon-bar a{
+	display:block;
+	font-size:36px;
+	text-align :center;
+	padding: 20px;
+	transition : all 0.3s ease;
+}
+.icon-bar a:hover{
+	Background color: 	#f2f2f2;
+}
+.active{
+	Background color: 	#A9A9A9;
+}
+.name{
+	font-size:20px;
+	text-align:center;
+}
+
+#rightSideWrapper {
+	/*Strictly Necessary */
+	width:90%; 
+	float: right;
+
+	/*Aesthetics*/
+	
+}
+
+header {
+	/*Strictly Necessary */
+	position: fixed;
+	width: 90%;	
+	height: 100px; /*Adjust the hight to your purposes*/
+	
+	/*Aesthetics*/
+	background: #F5F5F5;
+	border-radius: 7px;
+}
+
+
+
+
+
+.main {
+	
+  background :#DCDCDC;
+  height: 900px;
+  
+	
+}
+ .url-name{
+	 position:fixed;
+	 width : 200px;
+	 height:200px;
+	 text-align:center;
+	padding : 200px;
+	 /*display: inline-block;*/
+	 box-sizing: border-box;
+	
+ }
+input{
+	 padding:5px;
+	 border-radius:5px;
+ }
+.label1{
+	 position:fixed;
+	 width:500px;
+	 padding:230px;
+	 text-align:center;
+ }
+ .file-upload
+ {
+	padding:260px;
+	 align-items:center;
+	 font-size:5px;
+	 
+ }
+.file-upload__button{
+	display:flex;
+	position:fixed;
+	height:150px;
+	width:130px;
+	padding:50px;
+}
+
